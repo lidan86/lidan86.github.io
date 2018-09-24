@@ -1,6 +1,5 @@
 # lidan86.github.io
-A github page for mazipan.github.io
-
+A github page for lidan86.github.io
 Github : <a href="https://lidan86.github.io">https://lidan86.github.io/</a><br/>
 
 **Hope will usefull for you all.**
