@@ -18,7 +18,7 @@ Feel free to reach me on WhatsApp or Telegram and we can discuss about business 
 									CTO, Startup, Product Development, CEO, Founder">
 		<meta name="author" content="Maulidan Yulianto">
       	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="google-site-verification" content="wji7wkoVAVCW9UJ-JZ5UNEpHN1x8vBzY8zhrlaX895M" />
+
 
 		<!-- Css -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
@@ -878,7 +878,7 @@ I do work like this: <br>
 						
 						</div>
 						<!--End about-->
-
+						</div>
 					</section>
 						<!--End about tab-->
 						
@@ -1543,7 +1543,7 @@ I do work like this: <br>
 
 					</div>
 					<!--End portfolio-->
-
+					</div>
 				</section>
 				<!--End portfolio tab-->
 
@@ -1699,7 +1699,7 @@ I do work like this: <br>
 
 						</div>
 						<!--End portfolio-->
-
+					</div>
 				</section>
 				<!--End portfolio tab-->
 
@@ -1865,6 +1865,26 @@ I do work like this: <br>
 (function($) {
   "use strict";
 
+
+    $(document).ready(function(){
+
+        $('#wrapper').easytabs({
+            animate			: true,
+            updateHash		: false,
+            transitionIn	:'fadeIn',
+            transitionOut	:'fadeOut',
+            animationSpeed	:100,
+            tabActiveClass	:'active',
+            tabs            :' #main-nav.tabbed > ul > li ',
+            transitionInEasing: 'linear',
+            transitionOutEasing: 'linear'
+
+        });
+
+
+
+
+    });
 
 
 })(jQuery);
